@@ -1,6 +1,6 @@
 {
   "name": "kde-globals-loader",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Finds active KDE global values such as color scheme and icon theme",
   "main": "index.js",
   "scripts": {
