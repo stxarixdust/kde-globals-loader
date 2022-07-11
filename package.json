@@ -1,0 +1,23 @@
+{
+  "name": "kde-globals-loader",
+  "version": "1.0.0",
+  "description": "Finds active KDE global values such as color scheme and icon theme",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "KDE",
+    "colors",
+    "icons",
+    "preferences",
+    "globals",
+    "color",
+    "scheme"
+  ],
+  "author": "Ari",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "ini": "^3.0.0"
+  }
+}
