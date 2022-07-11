@@ -16,7 +16,7 @@ This module has two functions:
 Active color scheme name and values
 
 ```js
-getGlobals().then(data => {
+require("kde-globals-loader").getGlobals().then(data => {
   console.log("Your current color scheme is "
     + data.General.ColorScheme
     + ". It has the following RGB color values:"
@@ -30,16 +30,16 @@ getGlobals().then(data => {
 Text font size and name
 
 ```js
-getGlobals().then(data => {
+require("kde-globals-loader").getGlobals().then(data => {
   let font = data.General.font.split(",");
-  console.log("You're using the font \"" + font[0] + "\" at " + font[1] + "pt");
+  console.log(`You're using the font "${font[0]}" at ${font[1]}pt size`);
 });
 ```
 
 Globals file location
 
 ```js
-getGlobalsPath().then(path => {
+require("kde-globals-loader").getGlobalsPath().then(path => {
   console.log("Your globals are stored at " + path);
 });
 ```
